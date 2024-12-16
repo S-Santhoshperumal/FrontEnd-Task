@@ -1,0 +1,16 @@
+<p>switch works!</p>
+
+
+<button type="button" (click)="bike()">Bike</button>
+<button type="button" (click)="car()">Car</button>
+<div *ngFor="let i of temp">
+
+    <div (click)="onclick(i)" class="clickable">
+        {{i}}
+    </div>
+</div>
+<hr>
+<div *ngIf="name">You have selected {{name}} </div>
+
+
+<hr>
